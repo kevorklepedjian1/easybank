@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/easybank/static/css/main.553c0cec.css",
+    "main.js": "/easybank/static/js/main.b08b277f.js",
+    "static/media/currency.jpg": "/easybank/static/media/currency.1b385bf9f62bf25ef22d.jpg",
+    "static/media/resto.jpg": "/easybank/static/media/resto.1951b57675babfd83c6c.jpg",
+    "static/media/phones.png": "/easybank/static/media/phones.48d35b175fe3d36de4ee.png",
+    "static/media/plane.jpg": "/easybank/static/media/plane.03db115dff75876c3f3d.jpg",
+    "static/media/confetti.jpg": "/easybank/static/media/confetti.67921b1124297023a080.jpg",
+    "static/media/icon-api.svg": "/easybank/static/media/icon-api.74c8ad1751bbd1e7f545e458f9306885.svg",
+    "static/media/icon-onboarding.svg": "/easybank/static/media/icon-onboarding.d74aed6429619336a30e42334d6eb432.svg",
+    "static/media/logo.svg": "/easybank/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/footerlogo.svg": "/easybank/static/media/footerlogo.cd6d39b34f2e691459a9bf0fafbef654.svg",
+    "static/media/icon-budgeting.svg": "/easybank/static/media/icon-budgeting.ad7169975ea1eda87072ea0325a8204a.svg",
+    "static/media/bgintrodesktop.svg": "/easybank/static/media/bgintrodesktop.8be308fd4ce79bd32a09ec5437774701.svg",
+    "static/media/bg-intro-mobile.svg": "/easybank/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
+    "static/media/icon-online.svg": "/easybank/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
+    "index.html": "/easybank/index.html",
+    "main.553c0cec.css.map": "/easybank/static/css/main.553c0cec.css.map",
+    "main.b08b277f.js.map": "/easybank/static/js/main.b08b277f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553c0cec.css",
+    "static/js/main.b08b277f.js"
+  ]
+}
