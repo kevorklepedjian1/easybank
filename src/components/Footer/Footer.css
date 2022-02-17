@@ -1,0 +1,138 @@
+.Footer {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-height: 250px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  background-color: #2d314d;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer .first span {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.Footer .first span:hover {
+  color: #31d35c;
+}
+
+.Footer .first div {
+  margin: 10px;
+}
+
+.Footer .second div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer .second li {
+  margin: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.Footer .second li:hover {
+  color: #31d35c;
+}
+
+.Footer .third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer .third button {
+  border: 0;
+  border-bottom: 0;
+  border-top: 0;
+  border-radius: 50px;
+  color: white;
+  padding: 5%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  cursor: pointer;
+}
+
+.Footer .third button:hover {
+  opacity: 0.5;
+}
+
+.Footer .third p {
+  margin: 20px 0;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 701px) {
+  .second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .second div {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .second {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second div {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

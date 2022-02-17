@@ -1,0 +1,92 @@
+.easybank {
+  background: #f3f4f6;
+}
+
+.easybank .easybank_wrapper {
+  text-align: center;
+  padding: 64px 23px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  row-gap: 52px;
+  color: #9698a5;
+}
+
+.easybank .easybank_wrapper h2 {
+  margin-bottom: 21px;
+  color: #2d314d;
+  font-weight: 300;
+}
+
+.easybank .easybank_wrapper p {
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+.easybank .easybank_wrapper .easybank_text h2 {
+  font-size: 2.5em;
+}
+
+.easybank .easybank_wrapper .easybank_options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  row-gap: 32px;
+}
+
+.easybank .easybank_wrapper .easybank_options img {
+  margin-bottom: 26px;
+}
+
+@media (min-width: 768px) {
+  .easybank .easybank_wrapper {
+    padding: 64px 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .easybank .easybank_wrapper {
+    text-align: left;
+    padding: 108px 41px;
+    row-gap: 74px;
+  }
+  .easybank .easybank_wrapper .easybank_text h2 {
+    font-size: 2em;
+  }
+  .easybank .easybank_wrapper .easybank_text p {
+    width: 624px;
+  }
+  .easybank .easybank_wrapper .easybank_options {
+    -ms-grid-columns: (auto)[4];
+        grid-template-columns: repeat(4, auto);
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .easybank .easybank_wrapper .easybank_options .option p {
+    font-size: 0.8em;
+  }
+  .easybank .easybank_wrapper .easybank_options .option h2 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1220px) {
+  .easybank .easybank_wrapper .easybank_options .option p {
+    font-size: 0.85em;
+  }
+  .easybank .easybank_wrapper .easybank_options .option h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .easybank .easybank_wrapper {
+    padding: 110px 164px;
+  }
+  .easybank .easybank_wrapper .easybank_options {
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
+  }
+}
