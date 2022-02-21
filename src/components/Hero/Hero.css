@@ -102,6 +102,11 @@
       width: 95%;
     }
   }
+@media (max-width: 380px){
+     .hero .hero_wrapper .right img {
+         width:60%;
+    }
+}
   
   @media (min-width: 500px) {
     .hero .hero_wrapper .left .left_wrapper {
