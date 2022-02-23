@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easybank/static/css/main.eb0dfcbe.css",
+    "main.css": "/easybank/static/css/main.079e4bfc.css",
     "main.js": "/easybank/static/js/main.b08b277f.js",
     "static/media/currency.jpg": "/easybank/static/media/currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/resto.jpg": "/easybank/static/media/resto.1951b57675babfd83c6c.jpg",
@@ -16,11 +16,11 @@
     "static/media/bg-intro-mobile.svg": "/easybank/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
     "static/media/icon-online.svg": "/easybank/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
     "index.html": "/easybank/index.html",
-    "main.eb0dfcbe.css.map": "/easybank/static/css/main.eb0dfcbe.css.map",
+    "main.079e4bfc.css.map": "/easybank/static/css/main.079e4bfc.css.map",
     "main.b08b277f.js.map": "/easybank/static/js/main.b08b277f.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb0dfcbe.css",
+    "static/css/main.079e4bfc.css",
     "static/js/main.b08b277f.js"
   ]
 }
